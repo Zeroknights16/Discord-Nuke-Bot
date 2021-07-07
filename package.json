@@ -1,0 +1,30 @@
+{
+  "name": "dev-build",
+  "version": "1.0.0",
+  "description": "A Discord Nuker Bot developed by Zeroknights#9457",
+  "main": "index.js",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "discord.js": "^12.5.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zeroknights16/Discord-Nuke-Bot.git"
+  },
+  "keywords": [
+    "Discord",
+    "Javascript",
+    "Node.js",
+    "Nuke"
+  ],
+  "author": "Zeroknights#9457",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zeroknights16/Discord-Nuke-Bot/issues"
+  },
+  "homepage": "https://github.com/Zeroknights16/Discord-Nuke-Bot#readme"
+}

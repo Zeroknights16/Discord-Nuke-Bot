@@ -1,0 +1,78 @@
+{
+  "bot": {
+    "prefix": ".",
+    "token": "ODM2NjI3NTMxMjIxNTY1NTAx.YIgwGw.xsejWu3M8NelVHzXi_Tf_bzhFO0",
+    "version": "1.0"
+  },
+  "server": {
+    "name": "Ice"
+  },
+  "commands": {
+    "banall": {
+      "description": "Ban every user within an guild",
+      "usage": "banall",
+      "permission": "SEND_MESSAGES",
+      "cooldown": "30",
+      "id": "100"
+    },
+    "botinfo": {
+      "description": "View Information about the bot",
+      "usage": "botinfo",
+      "permission": "SEND_MESSAGES",
+      "cooldown": "5",
+      "id": "101"
+    },
+    "clearchannels": {
+      "description": "Clear all channels within an guild",
+      "usage": "clearchannels",
+      "permission": "SEND_MESSAGES",
+      "cooldown": "30",
+      "id": "102"
+    },
+    "clearroles": {
+      "description": "Clear all roles within an guild",
+      "usage": "clearroles",
+      "permission": "SEND_MESSAGES",
+      "cooldown": "30",
+      "id": "103"
+    },
+    "help": {
+      "description": "Display help list",
+      "usage": "help <Category>",
+      "permission": "SEND_MESSAGES",
+      "cooldown": "3",
+      "id": "114"
+    },
+    "nuke": {
+      "description": "Nuke the whole discord server",
+      "usage": "nuke",
+      "permission": "SEND_MESSAGES",
+      "cooldown": "30",
+      "id": "105"
+    },
+    "restart": {
+      "description": "Restart the bot",
+      "usage": "restart",
+      "permission": "ADMINISTRATOR",
+      "cooldown": "5",
+      "id": "106"
+    },
+    "uptime": {
+      "description": "Get the bot's uptime",
+      "usage": "uptime",
+      "permission": "SEND_MESSAGES",
+      "cooldown": "3",
+      "id": "107"
+    }
+  },
+  "messages": {
+    "errfooter": "Parameters in \"[]\" are mandatory, while parameters with \"<>\" are optional.",
+    "guildOnly": "you can't execute this command inside dms!",
+    "enabled": "this module is disabled!",
+    "args": "you missed some arguments!",
+    "usermention": "you didn't mention an user!",
+    "rolemention": "you didn't select a role!",
+    "devmode": "developer mode is currently enabled!",
+    "permission": "you are not allowed to execute this command!"
+  }
+}
