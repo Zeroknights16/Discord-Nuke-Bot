@@ -2,7 +2,7 @@
 
 
 ####  📔 Table Of Contents:
-* [Installation-Guide](https://github.com/Zeroknights16/Application-Bot-Discord.js-/blob/main/docs/installation.md)
+* [Installation-Guide](https://github.com/Zeroknights16/Discord-Nuke-Bot/blob/main/docs/installation.md)
 
 #### 🛠️ NOTE:
 * This bot was made in 1 hour. So don't expect it to being that good.
