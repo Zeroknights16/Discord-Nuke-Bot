@@ -2,7 +2,7 @@
 
 ### Steps:
 **1.** Please ensure you have [Node.js](https://nodejs.org/en/download/) installed.\
-**2.** Download the latest release [Here](https://github.com/Zeroknights16/Application-Bot-Discord.js-)\
+**2.** Download the latest release [Here](https://github.com/Zeroknights16/Discord-Nuke-Bot)\
 **3.** Fill in the config.json file. ([Available Permission types](https://discord.js.org/#/docs/main/stable/class/Permissions?scrollTo=s-FLAGS))\
 **4.** Run install.bat to install all the node_modules.\
 **5.** Start the bot by running the start.bat file.
