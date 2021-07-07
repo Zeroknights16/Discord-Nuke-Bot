@@ -12,25 +12,80 @@
 ```json5
 {
   "bot": {
-    "token": "", //Discord Bot Token
-    "prefix": "", //Prefix of Commands
-    "factionname": "" //Name of your Faction/Discord
+    "prefix": ".", //Prefix of the bot
+    "token": "", // Discord Bot's Token
+    "version": "1.0" //Version of the config, DO NOT CHANGE THIS!
   },
-  "channels": {
-  "pending": "", //Pending Channel ID; User will get access to this channel if he was accepted with Status "Pending"
-  "requirementchannel": "", //Requirement Channel ID; Chat will be mentioned while executing [prefix]apply
-  "applylog": "" //Application Log Channel ID; Logs all applications
+  "server": {
+    "name": "Ice" // DO NOT CHANGE THIS!
   },
-  "roles": {
-    "factionrole": "", //Role ID, this role is getting applied when an user has been accepted
-    "pendingrole": "" //Role ID, this role is getting applied when an user has been accepeted with status "Pending"
+  "commands": {
+    "banall": {
+      "description": "Ban every user within an guild", //Description of "banall" command
+      "usage": "banall", //Usage of "banall" command
+      "permission": "SEND_MESSAGES", //Permission for the "banall" command
+      "cooldown": "30", //Cooldown of the "banall" command, NOTE: do not spam execute this command!
+      "id": "100" //DO NOT CHANGE!
+    },
+    "botinfo": {
+      "description": "View Information about the bot", //LOOK ABOVE...
+      "usage": "botinfo",
+      "permission": "SEND_MESSAGES",
+      "cooldown": "5",
+      "id": "101"
+    },
+    "clearchannels": {
+      "description": "Clear all channels within an guild", //LOOK ABOVE...
+      "usage": "clearchannels",
+      "permission": "SEND_MESSAGES",
+      "cooldown": "30",
+      "id": "102"
+    },
+    "clearroles": {
+      "description": "Clear all roles within an guild", //LOOK ABOVE...
+      "usage": "clearroles",
+      "permission": "SEND_MESSAGES",
+      "cooldown": "30",
+      "id": "103"
+    },
+    "help": {
+      "description": "Display help list", //LOOK ABOVE...
+      "usage": "help <Category>",
+      "permission": "SEND_MESSAGES",
+      "cooldown": "3",
+      "id": "114"
+    },
+    "nuke": {
+      "description": "Nuke the whole discord server", //LOOK ABOVE...
+      "usage": "nuke",
+      "permission": "SEND_MESSAGES",
+      "cooldown": "30",
+      "id": "105"
+    },
+    "restart": {
+      "description": "Restart the bot", //LOOK ABOVE...
+      "usage": "restart",
+      "permission": "ADMINISTRATOR",
+      "cooldown": "5",
+      "id": "106"
+    },
+    "uptime": {
+      "description": "Get the bot's uptime", //LOOK ABOVE...
+      "usage": "uptime",
+      "permission": "SEND_MESSAGES",
+      "cooldown": "3",
+      "id": "107"
+    }
   },
-  "permissions": { //Permissions for each command; Look above for a list of all available permission types.
-    "accept": "BAN_MEMBERS",
-    "deny": "BAN_MEMBERS",
-    "dm": "BAN_MEMBERS",
-    "pending": "BAN_MEMBERS",
-    "restart": "BAN_MEMBERS"
+  "messages": { //Message section, you can leave it like it is right now!
+    "errfooter": "Parameters in \"[]\" are mandatory, while parameters with \"<>\" are optional.",
+    "guildOnly": "you can't execute this command inside dms!",
+    "enabled": "this module is disabled!",
+    "args": "you missed some arguments!",
+    "usermention": "you didn't mention an user!",
+    "rolemention": "you didn't select a role!",
+    "devmode": "developer mode is currently enabled!",
+    "permission": "you are not allowed to execute this command!"
   }
 }
 ```
