@@ -1,7 +1,7 @@
 {
   "bot": {
     "prefix": ".",
-    "token": "ODM2NjI3NTMxMjIxNTY1NTAx.YIgwGw.xsejWu3M8NelVHzXi_Tf_bzhFO0",
+    "token": "",
     "version": "1.0"
   },
   "server": {
@@ -53,7 +53,7 @@
     "restart": {
       "description": "Restart the bot",
       "usage": "restart",
-      "permission": "ADMINISTRATOR",
+      "permission": "SEND_MESSAGES",
       "cooldown": "5",
       "id": "106"
     },
