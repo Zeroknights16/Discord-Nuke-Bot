@@ -5,7 +5,7 @@
 * [Installation-Guide](https://github.com/Zeroknights16/Discord-Nuke-Bot/blob/main/docs/installation.md)
 
 #### 🛠️ NOTE:
-* This bot was made in 1 hour. So don't expect it to being that good.
+* This bot was made in 1 hour. So don't expect it to being that good but it works :D.
 
 #### ❤️ Support:
 * You can contact me on discord: `Zeroknights#9457`
