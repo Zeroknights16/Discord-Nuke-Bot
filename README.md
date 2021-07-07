@@ -11,7 +11,7 @@
 * You can contact me on discord: `Zeroknights#9457`
 
 #### 🌟 VPS Service:
-* I'm also offering vps services for all discord bots. This means that the bot is 24/7 online witout leaving your pc online.
+* I'm also offering vps services for all discord bots. This means that the bot is 24/7 online without leaving your pc online.
 * If you are interested or if you want to get more information contact me on Discord. 
 
 #### 📝 License
