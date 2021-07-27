@@ -1,7 +1,7 @@
 {
   "name": "dev-build",
   "version": "1.0.0",
-  "description": "A Discord Nuker Bot developed by Zeroknights#9457",
+  "description": "A Discord Nuke Bot developed by Zeroknights#9457",
   "main": "index.js",
   "dependencies": {
     "chalk": "^4.1.1",
