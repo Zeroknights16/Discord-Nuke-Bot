@@ -8,7 +8,7 @@
 * This bot was made in 1 hour. So don't expect it to being that good but it works :D.
 
 #### ❤️ Support:
-* You can contact me on discord: `Zeroknights#9457`
+* You can contact me on discord: `Zeroknights#0001`
 
 #### 🌟 VPS Service:
 * I'm also offering vps services for all discord bots. This means that the bot is 24/7 online without leaving your pc online.
